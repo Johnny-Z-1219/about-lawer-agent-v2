@@ -10,7 +10,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-gray-900">张律师</span>
+              <span className="text-2xl font-bold text-gray-900">董律师</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="#about" className="text-gray-700 hover:text-blue-600">关于我</Link>
@@ -34,7 +34,7 @@ export default function Home() {
                 <span className="text-blue-200">值得信赖</span>
               </h1>
               <p className="text-xl mb-8 text-blue-100">
-                20年执业经验，专注民商事纠纷、公司法务、合同纠纷等领域。
+                4年执业经验，专注民商事纠纷、公司法务、合同纠纷等领域。
                 为您提供专业、高效的法律解决方案。
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -67,23 +67,23 @@ export default function Home() {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">张明华律师</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">董丽军律师</h3>
               <p className="text-gray-700 mb-4">
-                中华全国律师协会会员，具有20年丰富的法律服务经验。毕业于中国政法大学法学院，
+                中华全国律师协会会员，中级律师，具有多年丰富的法律服务经验。毕业于安徽师范大学法学院，
                 获得法学硕士学位。专注于民商事纠纷、公司法务、合同纠纷等领域。
               </p>
               <p className="text-gray-700 mb-6">
-                曾为多家知名企业提供法律顾问服务，处理各类复杂法律案件1000余起，
+                年轻一代律师代表，曾为多家知名企业提供法律顾问服务，处理各类复杂法律案件500余起，
                 在业界享有良好声誉。
               </p>
               
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">20+</div>
+                  <div className="text-2xl font-bold text-blue-600">4+</div>
                   <div className="text-gray-600">执业年限</div>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">1000+</div>
+                  <div className="text-2xl font-bold text-blue-600">500+</div>
                   <div className="text-gray-600">成功案例</div>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="text-gray-600">客户满意度</div>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">50+</div>
+                  <div className="text-2xl font-bold text-blue-600">30+</div>
                   <div className="text-gray-600">企业顾问</div>
                 </div>
               </div>
@@ -168,22 +168,22 @@ export default function Home() {
           <div className="space-y-8">
             {[
               {
-                year: "2004-至今",
-                title: "高级合伙人律师",
-                company: "北京某知名律师事务所",
-                description: "主要负责重大民商事案件、公司法务等业务"
+                year: "2020.5-至今",
+                title: "专职律师",
+                company: "安徽修实律师事务所",
+                description: "主要办理民商事案件（精通公司法务及经营风险防范、合同纠纷、婚姻家庭纠纷）、刑事辩护。"
               },
               {
-                year: "2000-2004",
-                title: "执业律师",
-                company: "上海某律师事务所",
-                description: "从事各类民事、刑事案件代理工作"
+                year: "2018.9-2020.6",
+                title: "法律硕士",
+                company: "安徽师范大学",
+                description: "攻读法律硕士期间2020年11月份通过国家法律职业资格考试"
               },
               {
-                year: "1998-2000",
-                title: "法学硕士",
-                company: "中国政法大学",
-                description: "民商法学专业，获得法学硕士学位"
+                year: "2014.9-2018.7",
+                title: "法学学士",
+                company: "安徽师范大学",
+                description: "法学专业，获得法学学位"
               }
             ].map((exp, index) => (
               <div key={index} className="flex flex-col lg:flex-row gap-8 items-start">
@@ -215,21 +215,21 @@ export default function Home() {
             <div className="text-center">
               <div className="text-4xl mb-4">📞</div>
               <h3 className="text-xl font-bold mb-2">电话咨询</h3>
-              <p className="text-gray-300">010-12345678</p>
-              <p className="text-gray-300">138-0000-0000</p>
+              <p className="text-gray-300">0566-5021766</p>
+              <p className="text-gray-300">18905665832</p>
             </div>
             
             <div className="text-center">
               <div className="text-4xl mb-4">✉️</div>
               <h3 className="text-xl font-bold mb-2">邮箱联系</h3>
-              <p className="text-gray-300">lawyer@example.com</p>
+              <p className="text-gray-300">2548365492@qq.com</p>
             </div>
             
             <div className="text-center">
               <div className="text-4xl mb-4">📍</div>
               <h3 className="text-xl font-bold mb-2">办公地址</h3>
-              <p className="text-gray-300">北京市朝阳区</p>
-              <p className="text-gray-300">某某大厦20层</p>
+              <p className="text-gray-300">安徽省池州市青阳县九华西路194号</p>
+              <p className="text-gray-300">文化馆二楼</p>
             </div>
           </div>
           
@@ -244,7 +244,7 @@ export default function Home() {
       {/* 页脚 */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p>&copy; 2024 张明华律师事务所. 保留所有权利.</p>
+          <p>&copy; 2025 安徽修实律师事务所. 保留所有权利.</p>
         </div>
       </footer>
 
