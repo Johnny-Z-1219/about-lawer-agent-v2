@@ -22,6 +22,20 @@ export const metadata = {
     shortcut: "/lawyer-icon.svg",
     apple: "/lawyer-icon.svg",
   },
+  alternates: {
+    canonical: "https://www.lawyerdong.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -31,11 +45,22 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/lawyer-icon.svg" type="image/svg+xml" />
         <link rel="shortcut icon" href="/lawyer-icon.svg" />
         <link rel="apple-touch-icon" href="/lawyer-icon.svg" />
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
         <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta property="og:title" content="董丽军律师 - 安徽修实律师事务所" />
         <meta property="og:description" content="专业法律服务，提供公司法务、合同纠纷、劳动争议等法律咨询" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/lawyer-icon.svg" />
+        <meta property="og:url" content="https://www.lawyerdong.com" />
+        <meta property="og:image" content="https://www.lawyerdong.com/lawyer-icon.svg" />
+        <meta property="og:site_name" content="董丽军律师 - 安徽修实律师事务所" />
+        <meta property="og:locale" content="zh_CN" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="董丽军律师 - 安徽修实律师事务所" />
+        <meta name="twitter:description" content="专业法律服务，提供公司法务、合同纠纷、劳动争议等法律咨询" />
+        <meta name="twitter:image" content="https://www.lawyerdong.com/lawyer-icon.svg" />
+        <link rel="canonical" href="https://www.lawyerdong.com" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

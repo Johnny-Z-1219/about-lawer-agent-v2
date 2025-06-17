@@ -1,0 +1,44 @@
+# Robots.txt for 董丽军律师 - 安徽修实律师事务所
+# https://www.lawyerdong.com
+
+# 允许所有搜索引擎爬虫访问
+User-agent: *
+Allow: /
+
+# 特别允许 Google 爬虫
+User-agent: Googlebot
+Allow: /
+
+# 特别允许百度爬虫
+User-agent: Baiduspider
+Allow: /
+
+# 允许必应爬虫
+User-agent: bingbot
+Allow: /
+
+# 允许搜狗爬虫
+User-agent: Sogou web spider
+Allow: /
+
+# 允许360搜索爬虫
+User-agent: 360Spider
+Allow: /
+
+# Sitemap 位置
+Sitemap: https://www.lawyerdong.com/sitemap.xml
+
+# 明确允许搜索引擎访问的内容
+Allow: /images/
+Allow: /lawyer-icon.svg
+Allow: /_next/static/
+Allow: /favicon.ico
+
+# 禁止访问敏感或无用的目录
+Disallow: /api/
+Disallow: /_next/
+Disallow: /.next/
+Disallow: /node_modules/
+
+# 爬取延迟（对服务器友好）
+Crawl-delay: 1 

@@ -8,6 +8,7 @@ import LawyerProfile from "./components/LawyerProfile";
 import GaodeMap from "./components/GaodeMap";
 import WeChatQR from "./components/WeChatQR";
 import ConsultationForm from "./components/ConsultationForm";
+import StructuredData from "./components/StructuredData";
 
 export default function Home() {
   return (
@@ -371,7 +372,8 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* 智能助手 */}
+      {/* 结构化数据 */}
+      <StructuredData />
     </div>
   );
 }
